@@ -17,13 +17,15 @@ Attach bakbak_validator() function to the email field you want validated
 Decide what should happen for valid emails, invalid emails and suggestions
 Attaching to a form field:
 
-   $('jquery_selector').bakbak_validator({
+  ``` $('jquery_selector').bakbak_validator({
        in_progress: in_progress_callback, // called when request is made to validator
        success: success_callback,         // called when validator has returned
        error: validation_error,           // called when an error reaching the validator has occured
-   });
-Sample JSON in success callback:
+   });```
 
+
+Sample JSON in success callback:
+```
  {
  "is_valid":true,
  "address":"biplav.saraf@gmail.com",
@@ -37,6 +39,7 @@ Sample JSON in success callback:
   "syntaxValid":true,
   "mxValid":true
 }
-Demo
+```
+#Demo
 
 http://www.bakbak.io/verifyemail
