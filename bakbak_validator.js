@@ -35,7 +35,7 @@ function run_validator(address_text, options) {
     // make ajax call to get validation results
     $.ajax({
         type: "GET",
-        url: 'https://verifyemail.bakbak.io/validate',
+        url: 'http://verifyemail.bakbak.io/api/validate',
         data: { email: address_text},
         dataType: "json",
         crossDomain: true,
