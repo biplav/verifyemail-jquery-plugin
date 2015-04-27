@@ -1,5 +1,6 @@
 # Advanced jQuery Email Address Validator by BakBak
 A simple jQuery plugin to show capability of http://www.bakbak.io/verifyemail
+More details of this can be found at http://www.censore.blogspot.in/2015/04/email-validation-jquery-plugin-covered.html
 
 Given an arbitrary address, BakBak/VerifyEmail will validate the address based on:
 
